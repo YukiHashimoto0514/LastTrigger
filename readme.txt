@@ -3,6 +3,9 @@
 [作成者]バンタンゲームアカデミー大阪校　ゲームプログラム総合　21年度生
 　　　　橋本　侑樹(はしもと　ゆうき)
 
+[開発期間]
+約9か月
+
 [想定動作環境]
 OS : Windows 10
 CPU: Intel AVX対応CPU
@@ -27,14 +30,16 @@ IDE : Visual Studio 2019
 全5ステージで、各ステージの最後にはボスが待ち構えていて、それぞれが特徴を持っています。
 自機はラストトリガーという必殺技を使うことができます。
 必殺技を使うと、ゲーム内の時間と自機の弾や敵の弾がゆっくりになり自機の持っている弾をすべて同時に発射することができます。
-それを有効に使い、敵の攻撃をうまく搔い潜りながら、敵を倒しましょう。
+それを有効に使い、敵の攻撃をうまく搔い潜りながら、敵を倒そう！
+
+
 
 [制作目的]
 必殺技を使って敵を一掃するようなゲームと、弾幕避けゲーを合わせたゲームを作ってみたくて
 制作に取り組みました。
 弾幕ゲームはぎりぎりの状況で生き残る部分が面白いと思い、
 必殺技を使うゲームでは雑魚をまとめて倒したり、ボスのHPを一気に削るのが面白いと思ったので
-二つを取り入れたゲーム性を組み合わせたら面白いと思いました。
+二つの要素を取り入れたゲーム性を組み合わせたら面白いと思いました。
 
 
 [工夫した部分]
@@ -57,54 +62,35 @@ IDE : Visual Studio 2019
 ・必殺技
 　必殺技を発動させると、現在自分が獲得している弾をすべて同時に発射し、
 　プレイヤー以外の敵、敵の弾、自分の弾の速度が低下したように見えます。
-　必殺技のゲージが青白く光りながらみるみる減っていく様子を工夫しました。
-　この必殺技一つで、自分の目的である敵を一掃することと、弾幕避けゲーを実装することができました。
+　必殺技のゲージが青白く光る光りながらみるみる減っていく様子を工夫しました。
+　この必殺技を実装することで、自分の目的である敵を一掃することと、弾幕避けゲーを実装することができました。
 
 [ファイル構成]
 LastTrigger.zip        :ゲーム本体
 LastTrigger_Source.zip :ゲームのソースコード
-readme.txt             :このファイル
+LastTrigger.mp4        :ゲームの説明動画
+readme.txt             :このテキスト
+
 
 [ソースファイル構成]
 LastTrigger
   +- packages         NuGetパッケージ
   +- Res
   |   +- Audio        音声データ
-  |   +- *.txt        マップデータ
-  |   +- *.tga        UIなどのテクスチャ
-  |   +- standard_2D.frag       フラグメントシェーダ
-  |   +- standard_2D.vert       頂点シェーダ
+  |   +- Model        3Dモデルデータ
+  |   +- Bullet       弾の画像
+  |   +- Map          マップデータ
+  |   +- UI           UI画像
+  |   +- Shader       シェーダーが詰まってる
   +- Src
-  |   +- Component    コンポーネントがたくさん詰まっているファイル
-  |   +- glad         GLADライブラリ
-  |   +- AudioSettings.h         効果音やBGMを設定するクラス
-  |   +- Component.h      　     コンポーネントクラス
-  |   +- EasyAudio.cpp           関数の中身
-  |   +- EasyAudio.h　　　	 関数定義クラス
-  |   +- Engin.cpp　　　　	 エンジンクラス
-  |   +- Engine.h　　　　　	 エンジンクラス
-  |   +- GameClearScene.cpp	 ゲームクリア画面クラス
-  |   +- GameClearScene.h　	 ゲームクリア画面クラス
-  |   +- GameObject.cpp    	 ゲームオブジェクトクラス
-  |   +- GameObject.h      	 ゲームオブジェクトクラス
-  |   +- GameOverScene.cpp 	 ゲームオーバー画面クラス
-  |   +- GameOverScene.h   	 ゲームオーバー画面クラス
-  |   +- LoadScene.cpp           ロード画面クラス
-  |   +- LoadScene.h       	 ロード画面クラス
-  |   +- Main.cpp          	 エンジンを動かしているクラス
-  |   +- MainGameScene.cpp 	 メインゲーム画面クラス
-  |   +- MainGameScene.h   	 メインゲーム画面クラス
-  |   +- Rect.h            	 四角形クラス
-  |   +- Scene.h            	 シーンクラス
-  |   +- Sprite.h          	 画像クラス
-  |   +- SpritePriority.h   	 描画優先順位クラス
-  |   +- TileMap.h          	 タイルマップクラス
-  |   +- TitleScene.cpp     	 タイトルシーンクラス
-  |   +- TitleScene.h            タイトルシーンクラス
-  +- SpaceFalcon.sln             VSソリューションファイル
-  +- SpaceFalcon.vcxproj         VSプロジェクトファイル
-  +- SpaceFalcon.vcxproj.filters VSフィルタファイル
-  +- SpaceFalcon.vcxproj.user    VSユーザー設定ファイル
+  |   +- Component               コンポーネントがたくさん詰まっているファイル
+  |   +- glad         	         GLADライブラリ
+  |   +- Application             ゲームを面白くするためのファイル
+  |   +- Engine      　          起動に必要なファイル
+  +- OpenGlGame.sln              VSソリューションファイル
+  +- OpenGlGame.vcxproj          VSプロジェクトファイル
+  +- OpenGlGame.vcxproj.filters  VSフィルタファイル
+  +- OpenGlGame.vcxproj.user     VSユーザー設定ファイル
   +- packages.config             NuGetパッケージ設定ファイル
 
 
@@ -137,13 +123,21 @@ SE     　 ：https://www.music-note.jp/index.html
 　決定音１
 　決定音２
 
+モデル	https://www.cadnav.com/
+　	https://sketchfab.com/
+
 [参考資料]
 イージング：https://easings.net/ja
 
-[プレイ動画]
-https://youtu.be/feEqasMrpUA
+[リファレンスを受けて]
+・エンジンクラスの整理、分離
+・各ファイルを整理
+・各コードを関数整理、いらない部分の削除
 
-
+[追記]
+・動画はDebugビルド＋動画ソフトを使用しているため、カクついている場面がありますが、
+　実際にプレイしていただけるとカクつきはありません。
+　たとえ、弾が同時に５０００発以上描画してもプレイに支障をきたすことはほとんどありません。
 
 
 
