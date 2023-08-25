@@ -1,0 +1,23 @@
+[
+  { "name" : "ChaosTree", "mesh" : "ChaosTree", "translate" : [ 54.31885, 1100, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (1)", "mesh" : "ChaosTree", "translate" : [ 47.7683, 1026.667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (2)", "mesh" : "ChaosTree", "translate" : [ 100.1549, 953.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (3)", "mesh" : "ChaosTree", "translate" : [ 66.62558, 880, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (4)", "mesh" : "ChaosTree", "translate" : [ 81.0229, 806.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (5)", "mesh" : "ChaosTree", "translate" : [ 122.3984, 733.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (6)", "mesh" : "ChaosTree", "translate" : [ 14.22884, 660, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (7)", "mesh" : "ChaosTree", "translate" : [ 113.9577, 586.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (8)", "mesh" : "ChaosTree", "translate" : [ 31.32634, 513.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (9)", "mesh" : "ChaosTree", "translate" : [ 65.62263, 440, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (10)", "mesh" : "ChaosTree", "translate" : [ 21.1399, 366.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (11)", "mesh" : "ChaosTree", "translate" : [ 72.28713, 293.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (12)", "mesh" : "ChaosTree", "translate" : [ 51.55473, 220, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (13)", "mesh" : "ChaosTree", "translate" : [ 57.53382, 146.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (14)", "mesh" : "ChaosTree", "translate" : [ 128.2905, 73.33334, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (15)", "mesh" : "ChaosTree", "translate" : [ 154.4628, 0, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (16)", "mesh" : "ChaosTree", "translate" : [ 0, 0, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "Magu", "mesh" : "Magu", "translate" : [ 85, 0, 55 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Magu (1)", "mesh" : "Magu", "translate" : [ 85, 680, 54.99992 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Magu (2)", "mesh" : "Magu", "translate" : [ 85, 340, 54.99996 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Magu (3)", "mesh" : "Magu", "translate" : [ 85, 1020, 54.99989 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] }
+]

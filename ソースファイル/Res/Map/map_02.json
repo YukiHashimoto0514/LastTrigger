@@ -1,0 +1,22 @@
+[
+  { "name" : "Dirt", "mesh" : "Dirt", "translate" : [ 85, 55, 0 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Dirt (1)", "mesh" : "Dirt", "translate" : [ 85, 395, 0 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Dirt (2)", "mesh" : "Dirt", "translate" : [ 85, 735, -4.053116E-05 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Dirt (3)", "mesh" : "Dirt", "translate" : [ 85, 1075, -8.106232E-05 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "tree_1", "mesh" : "tree_1", "translate" : [ 54.31885, 1100, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (1)", "mesh" : "tree_1", "translate" : [ 47.7683, 1026.667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (2)", "mesh" : "tree_1", "translate" : [ 100.1549, 953.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (3)", "mesh" : "tree_1", "translate" : [ 66.62558, 880, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (4)", "mesh" : "tree_1", "translate" : [ 81.0229, 806.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (5)", "mesh" : "tree_1", "translate" : [ 122.3984, 733.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (6)", "mesh" : "tree_1", "translate" : [ 14.22884, 660, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (7)", "mesh" : "tree_1", "translate" : [ 113.9577, 586.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (8)", "mesh" : "tree_1", "translate" : [ 31.32634, 513.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (9)", "mesh" : "tree_1", "translate" : [ 65.62263, 440, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (10)", "mesh" : "tree_1", "translate" : [ 21.1399, 366.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (11)", "mesh" : "tree_1", "translate" : [ 72.28713, 293.3333, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (12)", "mesh" : "tree_1", "translate" : [ 51.55473, 220, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (13)", "mesh" : "tree_1", "translate" : [ 57.53382, 146.6667, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (14)", "mesh" : "tree_1", "translate" : [ 128.2905, 73.33334, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] },
+  { "name" : "tree_1 (15)", "mesh" : "tree_1", "translate" : [ 154.4628, 0, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 8, 8, 8 ] }
+]

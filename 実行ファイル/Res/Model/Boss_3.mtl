@@ -1,0 +1,12 @@
+newmtl AsteroidsLava_Red
+Kd 1 1 1
+map_Kd AsteroidsLava_Red.tga
+map_Bump AsteroidsLava_Normal.tga
+illum 2
+
+newmtl AsteroidsLava_Blue
+Kd 1 1 1
+map_Kd AsteroidsLava_Blue.tga
+map_Bump AsteroidsLava_Normal.tga
+illum 2
+

@@ -1,0 +1,76 @@
+newmtl CockpitsEquipments
+Kd 1 1 1
+map_Kd CockpitsEquipments_Albedo.tga
+map_Bump CockpitsEquipmentsl_Normal.tga
+illum 2
+
+newmtl Blaster
+Kd 1 1 1
+map_Kd Blaster_Albedo.tga
+map_Bump Blaster_Normal.tga
+illum 2
+
+newmtl Thrusters1
+Kd 1 1 1
+map_Kd Thrusters_Albedo.tga
+map_Bump Thrusters_Normal.tga
+illum 2
+
+newmtl Wing6
+Kd 1 1 1
+map_Kd Wing6_Grey.tga
+map_Bump Wing6_Normal.tga
+illum 2
+
+newmtl CockpitEquipments_Screens
+Kd 1 1 1
+map_Kd CockpitEquipments-Screens.tga
+illum 2
+
+newmtl Cockpit3Grey_interior
+Kd 1 1 1
+map_Kd Cockpit3(interior)_Grey.tga
+map_Bump Cockpit3(interior)_Normal.tga
+illum 2
+
+newmtl Wing2
+Kd 1 1 1
+map_Kd Wing2_Grey.tga
+map_Bump Wing2_Normal.tga
+illum 2
+
+newmtl CockpitEquipments_TargetScreens
+Kd 1 1 1
+map_Kd CockpitEquipments-Screens.tga
+illum 2
+
+newmtl Engine1
+Kd 1 1 1
+map_Kd Engine1_Grey.tga
+map_Bump Engine1_Normal.tga
+illum 2
+
+newmtl MainBody13
+Kd 1 1 1
+map_Kd MainBody13_Grey.tga
+map_Bump MainBody13_Normal.tga
+illum 2
+
+newmtl MainBody2
+Kd 1 1 1
+map_Kd MainBody2_Grey.tga
+map_Bump MainBody2_Normal.tga
+illum 2
+
+newmtl Cockpit3Grey_Glass
+Kd 1 1 1
+map_Kd Cockpit3_Grey.tga
+map_Bump Cockpit3_Normal.tga
+illum 2
+
+newmtl Cockpit3Grey
+Kd 1 1 1
+map_Kd Cockpit3_Grey.tga
+map_Bump Cockpit3_Normal.tga
+illum 2
+

@@ -1,0 +1,5 @@
+newmtl dirt01
+Kd 1 1 1
+map_Kd dirt01.tga
+illum 2
+

@@ -1,0 +1,7 @@
+newmtl SciFi_Fighters-Fleet
+Kd 0.8823529 0.8823529 0.8823529
+Ks 0.2 0.2 0.2
+map_Kd SF_Fighter-Albedo.tga
+map_Bump SF_Fighter-Normal.tga
+illum 2
+

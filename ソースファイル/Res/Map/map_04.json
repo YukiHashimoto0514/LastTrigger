@@ -1,0 +1,21 @@
+[
+  { "name" : "Big_Tyled_Floor (1)", "mesh" : "Big_Tyled_Floor", "translate" : [ 85, 0, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 100, 5, 100 ] },
+  { "name" : "Big_Tyled_Floor", "mesh" : "Big_Tyled_Floor", "translate" : [ 85, 400, 0 ], "rotate" : [ 0, 90, 270 ], "scale" : [ 100, 5, 100 ] },
+  { "name" : "Big_Tyled_Floor (2)", "mesh" : "Big_Tyled_Floor", "translate" : [ 85, 1200, 0 ], "rotate" : [ 270, 0, 0 ], "scale" : [ 100, 5, 100 ] },
+  { "name" : "Big_Tyled_Floor (3)", "mesh" : "Big_Tyled_Floor", "translate" : [ 85, 800, 0 ], "rotate" : [ 0, 270, 90 ], "scale" : [ 100, 5, 100 ] },
+  { "name" : "crystal_17_2", "mesh" : "crystal_17_2", "translate" : [ 44.68746, 1094, -2 ], "rotate" : [ 15.83782, 90, 270 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (1)", "mesh" : "crystal_17_2", "translate" : [ 146.6712, 994.4971, 2.55216 ], "rotate" : [ 13.30526, 98.66976, 303.5269 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (2)", "mesh" : "crystal_17_2", "translate" : [ 232.1486, 943.819, 33.34793 ], "rotate" : [ 51.01737, 68.99561, 128.0553 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (3)", "mesh" : "crystal_17_2", "translate" : [ -22.77646, 843.5407, -2 ], "rotate" : [ 61.45895, 90, 270 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (4)", "mesh" : "crystal_17_2", "translate" : [ 64.42487, 727.7872, 9.868336 ], "rotate" : [ 319.1399, 148.4355, 291.14 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (5)", "mesh" : "crystal_17_2", "translate" : [ 147.6826, 645.6498, -2 ], "rotate" : [ 277.3181, 90, 270 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (6)", "mesh" : "crystal_17_2", "translate" : [ -5.742588, 571.1429, -5.392811 ], "rotate" : [ 15.83781, 108.0866, 270 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (7)", "mesh" : "crystal_17_2", "translate" : [ 136.116, 489.537, 9.732338 ], "rotate" : [ 53.62639, 294.4398, 46.94757 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (8)", "mesh" : "crystal_17_2", "translate" : [ 115.7391, 412.032, -2 ], "rotate" : [ 88.85363, 89.99998, 270 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (9)", "mesh" : "crystal_17_2", "translate" : [ 195.1554, 315.887, -4.911047 ], "rotate" : [ 36.17111, 255.4445, 66.25342 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (10)", "mesh" : "crystal_17_2", "translate" : [ 86.43408, 203.642, 8.444216 ], "rotate" : [ 6.329373, 195.0558, 323.6196 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (11)", "mesh" : "crystal_17_2", "translate" : [ 259.8307, 139.4942, -2.016947 ], "rotate" : [ 348.7154, 270.2512, 89.14538 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (12)", "mesh" : "crystal_17_2", "translate" : [ 222.8056, 47.36874, -4.507826 ], "rotate" : [ 54.84422, 152.2801, 337.5546 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (13)", "mesh" : "crystal_17_2", "translate" : [ 35.80878, -38.85714, -2 ], "rotate" : [ 15.83782, 90, 270 ], "scale" : [ 1000, 1000, 1000 ] },
+  { "name" : "crystal_17_2 (14)", "mesh" : "crystal_17_2", "translate" : [ 179.0032, -134.8996, -2 ], "rotate" : [ 292.3275, 270, 90 ], "scale" : [ 1000, 1000, 1000 ] }
+]

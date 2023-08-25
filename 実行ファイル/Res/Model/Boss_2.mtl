@@ -1,0 +1,65 @@
+newmtl mainbody_bodymap.png
+Kd 1 1 1
+map_Kd bodymap.tga
+illum 2
+
+newmtl fin_finmap.png
+Kd 1 1 1
+map_Kd finmap.tga
+illum 2
+
+newmtl enginemap_enginemap.png
+Kd 1 1 1
+map_Kd enginemap.tga
+illum 2
+
+newmtl enginecore_enginemap.png
+Kd 1 1 1
+map_Kd enginemap.tga
+illum 2
+
+newmtl torplaunchmap_torplauncher.png
+Kd 1 1 1
+map_Kd torplauncher.tga
+illum 2
+
+newmtl barrel_barrelmap.png
+Kd 1 1 1
+map_Kd barrelmap.tga
+illum 2
+
+newmtl cannonglow_barrelmap.png
+Kd 1 1 1
+map_Kd barrelmap.tga
+illum 2
+
+newmtl main_bridgemodulemap.png
+Kd 1 1 1
+map_Kd bridgemodulemap.tga
+illum 2
+
+newmtl glass_bridgemodulemap.png
+Kd 1 1 1
+map_Kd bridgemodulemap.tga
+illum 2
+
+newmtl turretmount_turretmount.png
+Kd 1 1 1
+map_Kd turretmount.tga
+illum 2
+
+newmtl beamweapon_beamweapon.png
+Kd 1 1 1
+map_Kd beamweapon.tga
+illum 2
+
+newmtl weaponcore_beamweapon.png
+Kd 1 1 1
+map_Kd beamweapon.tga
+illum 2
+
+newmtl rotatormap_turretrotator.tga
+Kd 1 1 1
+map_Kd turretrotator.tga
+illum 2
+

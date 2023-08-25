@@ -1,0 +1,5 @@
+newmtl ColorPaletteNormal
+Kd 1 1 1
+map_Kd ColorPaletteNormal.tga
+illum 2
+

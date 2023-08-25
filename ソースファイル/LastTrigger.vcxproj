@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fa09f1df-c212-4976-9cdd-f1c78748f270}</ProjectGuid>
+    <RootNamespace>LastTrigger</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Res\down_sampling.frag" />
+    <None Include="Res\gaussian_blur.frag" />
+    <None Include="Res\high_pass_filter.frag" />
+    <None Include="Res\shadow.frag" />
+    <None Include="Res\simple_2D.vert" />
+    <None Include="Res\standard_2D.frag" />
+    <None Include="Res\standard_2D.vert" />
+    <None Include="Res\standard_3D.frag" />
+    <None Include="Res\standard_3D.vert" />
+    <None Include="Res\up_sampling.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Engine\BufferObject.cpp" />
+    <ClCompile Include="Src\Engine\FramebufferObject.cpp" />
+    <ClCompile Include="Src\Engine\Texture.cpp" />
+    <ClCompile Include="Src\Application\Debug.cpp" />
+    <ClCompile Include="Src\Application\EasyAudio.cpp" />
+    <ClCompile Include="Src\Engine\Engine.cpp" />
+    <ClCompile Include="Src\Application\GameClearScene.cpp" />
+    <ClCompile Include="Src\Application\GameObject.cpp" />
+    <ClCompile Include="Src\Application\GameOverScene.cpp" />
+    <ClCompile Include="Src\glad\src\glad.c" />
+    <ClCompile Include="Src\Application\LoadScene.cpp" />
+    <ClCompile Include="Src\Engine\Main.cpp" />
+    <ClCompile Include="Src\Application\MainGameScene.cpp" />
+    <ClCompile Include="Src\Engine\Mesh.cpp" />
+    <ClCompile Include="Src\Application\ProgramPipeline.cpp" />
+    <ClCompile Include="Src\Application\TitleScene.cpp" />
+    <ClCompile Include="Src\Application\VecMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Application\AudioSettings.h" />
+    <ClInclude Include="Src\Application\Component.h" />
+    <ClInclude Include="Src\Component\Animation\Animator2D.h" />
+    <ClInclude Include="Src\Component\Explosion\anotherExplosion.h" />
+    <ClInclude Include="Src\Component\AudioEvent.h" />
+    <ClInclude Include="Src\Component\Explosion\BigExplosion.h" />
+    <ClInclude Include="Src\Component\BossMove\BossMove.h" />
+    <ClInclude Include="Src\Component\BossMove\BossMove2.h" />
+    <ClInclude Include="Src\Component\BossMove\BossMove3.h" />
+    <ClInclude Include="Src\Component\BossMove\BossMove4.h" />
+    <ClInclude Include="Src\Component\BossMove\BossMove5.h" />
+    <ClInclude Include="Src\Component\BulletMove\boundMove.h" />
+    <ClInclude Include="Src\Component\Camera.h" />
+    <ClInclude Include="Src\Component\BulletMove\CircleLerp.h" />
+    <ClInclude Include="Src\Component\BulletMove\CrossMove.h" />
+    <ClInclude Include="Src\Component\Damage\DamageSource.h" />
+    <ClInclude Include="Src\Component\BulletMove\DiffusionBullet.h" />
+    <ClInclude Include="Src\Component\Explosion\Explosion.h" />
+    <ClInclude Include="Src\Component\BulletMove\FireBullet.h" />
+    <ClInclude Include="Src\Component\HP\Health.h" />
+    <ClInclude Include="Src\Component\Damage\HitChangeColor.h" />
+    <ClInclude Include="Src\Component\HP\HPBar.h" />
+    <ClInclude Include="Src\Component\HP\HPMove.h" />
+    <ClInclude Include="Src\Component\Item.h" />
+    <ClInclude Include="Src\Component\Move\Lerp.h" />
+    <ClInclude Include="Src\Component\Explosion\MegaExplosion.h" />
+    <ClInclude Include="Src\Component\MeshRenderer.h" />
+    <ClInclude Include="Src\Component\Move\Move.h" />
+    <ClInclude Include="Src\Component\Move\MoveAndStop.h" />
+    <ClInclude Include="Src\Component\OutOfSreen.h" />
+    <ClInclude Include="Src\Component\Animation\PowerUpAnim.h" />
+    <ClInclude Include="Src\Component\Score\Score.h" />
+    <ClInclude Include="Src\Component\Score\ScoreManager.h" />
+    <ClInclude Include="Src\Component\Text.h" />
+    <ClInclude Include="Src\Component\Move\UChaseMove.h" />
+    <ClInclude Include="Src\Component\BulletMove\UMove.h" />
+    <ClInclude Include="Src\Component\BulletMove\WallThroughMove.h" />
+    <ClInclude Include="Src\Component\BulletMove\WaveMove.h" />
+    <ClInclude Include="Src\Application\Debug.h" />
+    <ClInclude Include="Src\Application\EasyAudio.h" />
+    <ClInclude Include="Src\Engine\BufferObject.h" />
+    <ClInclude Include="Src\Engine\Engine.h" />
+    <ClInclude Include="Src\Engine\FramebufferObject.h" />
+    <ClInclude Include="Src\Application\GameClearScene.h" />
+    <ClInclude Include="Src\Application\GameObject.h" />
+    <ClInclude Include="Src\Application\GameOverScene.h" />
+    <ClInclude Include="Src\glad\include\glad\glad.h" />
+    <ClInclude Include="Src\glad\include\KHR\khrplatform.h" />
+    <ClInclude Include="Src\Application\LoadScene.h" />
+    <ClInclude Include="Src\Application\MainGameScene.h" />
+    <ClInclude Include="Src\Engine\Mesh.h" />
+    <ClInclude Include="Src\Application\ProgramPipeline.h" />
+    <ClInclude Include="Src\Engine\Rect.h" />
+    <ClInclude Include="Src\Application\Scene.h" />
+    <ClInclude Include="Src\Engine\Sprite.h" />
+    <ClInclude Include="Src\Engine\SpritePriority.h" />
+    <ClInclude Include="Src\Engine\Texture.h" />
+    <ClInclude Include="Src\Engine\TileMap.h" />
+    <ClInclude Include="Src\Application\TitleScene.h" />
+    <ClInclude Include="Src\Application\VecMath.h" />
+    <ClInclude Include="Src\Engine\VertexArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Res\shadow.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\glfw.3.3.8\build\native\glfw.targets" Condition="Exists('packages\glfw.3.3.8\build\native\glfw.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\glfw.3.3.8\build\native\glfw.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glfw.3.3.8\build\native\glfw.targets'))" />
+  </Target>
+</Project>

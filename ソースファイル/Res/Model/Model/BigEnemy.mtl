@@ -1,0 +1,7 @@
+newmtl Turrets
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+map_Kd Canon_d.tga
+map_Bump Canon_n.tga
+illum 2
+

@@ -1,0 +1,5 @@
+newmtl grass01_b
+Kd 1 1 1
+map_Kd grass01_b.tga
+illum 2
+

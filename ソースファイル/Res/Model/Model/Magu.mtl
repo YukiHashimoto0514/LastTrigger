@@ -1,0 +1,5 @@
+newmtl MineSample2_EmissionRed
+Kd 1 1 1
+map_Kd MineSample2_EmissionRed.tga
+illum 2
+

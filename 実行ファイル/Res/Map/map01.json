@@ -1,0 +1,19 @@
+[
+  { "name" : "StarSparrow9", "mesh" : "BackFlyObj", "translate" : [ 160.5, 15.9, 4.1 ], "rotate" : [ 327.2865, 307.3736, 90 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "Spaceship", "mesh" : "SF_Free-Fighter", "translate" : [ 24, 88.8, 0 ], "rotate" : [ 31.36614, 111.0943, 270 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "Water", "mesh" : "Water", "translate" : [ 85, 740, 0 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Water (1)", "mesh" : "Water", "translate" : [ 85, 1080, 0 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Water (2)", "mesh" : "Water", "translate" : [ 85, 400, 0 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Water (3)", "mesh" : "Water", "translate" : [ 85, 60, 0 ], "rotate" : [ 0, 0, 0 ], "scale" : [ 340, 340, 1 ] },
+  { "name" : "Spaceship (1)", "mesh" : "SF_Free-Fighter", "translate" : [ 170, 233.3, 0 ], "rotate" : [ 294.0454, 221.0446, 125.0138 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "Spaceship (2)", "mesh" : "SF_Free-Fighter", "translate" : [ 24, 815, 0 ], "rotate" : [ 31.36614, 309.5674, 270 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "Spaceship (3)", "mesh" : "SF_Free-Fighter", "translate" : [ 73.3, 138.4, 0 ], "rotate" : [ 299.4428, 128.6949, 223.749 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "Spaceship (4)", "mesh" : "SF_Free-Fighter", "translate" : [ 218, 421, 0 ], "rotate" : [ 351.0397, 53.75375, 131.4635 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "Spaceship (5)", "mesh" : "SF_Free-Fighter", "translate" : [ 119, 586, 0 ], "rotate" : [ 15.85216, 167.0778, 263.9081 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "Spaceship (6)", "mesh" : "SF_Free-Fighter", "translate" : [ 24, 343, 0 ], "rotate" : [ 31.36614, 111.0943, 270 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "StarSparrow9 (1)", "mesh" : "BackFlyObj", "translate" : [ 160.5, 286, 4.1 ], "rotate" : [ 7.563229, 222.4162, 241.5762 ], "scale" : [ 7, 7, 7 ] },
+  { "name" : "StarSparrow9 (2)", "mesh" : "BackFlyObj", "translate" : [ -37, 432, 4.1 ], "rotate" : [ 327.2864, 39.81814, 90.00001 ], "scale" : [ 9, 9, 9 ] },
+  { "name" : "StarSparrow9 (3)", "mesh" : "BackFlyObj", "translate" : [ 160.5, 1086, 4.1 ], "rotate" : [ 327.2865, 248.8751, 89.99999 ], "scale" : [ 11, 11, 11 ] },
+  { "name" : "StarSparrow9 (4)", "mesh" : "BackFlyObj", "translate" : [ 160.5, 883, 4.1 ], "rotate" : [ 46.33789, 141.8571, 344.291 ], "scale" : [ 5, 5, 5 ] },
+  { "name" : "StarSparrow9 (5)", "mesh" : "BackFlyObj", "translate" : [ 160.5, 681, 4.1 ], "rotate" : [ 45.42897, 43.30211, 255.3452 ], "scale" : [ 5, 5, 5 ] }
+]

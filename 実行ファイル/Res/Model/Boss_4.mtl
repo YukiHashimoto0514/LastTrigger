@@ -1,0 +1,32 @@
+newmtl MainMat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl Wireframe.001Mat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl WindowsMat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl FlramesMat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl Small_Engine_LeftMat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl AxelsMat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl flamesMat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl Big_Engine_LeftMat
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+

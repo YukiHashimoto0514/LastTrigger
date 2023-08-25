@@ -1,0 +1,5 @@
+newmtl DungeonMaterial
+Kd 1 1 1
+map_Kd DungeonTexture.tga
+illum 2
+

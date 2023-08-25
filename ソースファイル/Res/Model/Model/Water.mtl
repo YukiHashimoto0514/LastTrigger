@@ -1,0 +1,5 @@
+newmtl Water fallback
+Kd 1 1 1
+map_Kd Water fallback.tga
+illum 2
+

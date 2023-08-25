@@ -1,0 +1,24 @@
+//newmtl Optimized Leaf Material
+//Kd 1 1 1
+//map_Kd null
+//illum 2
+
+newmtl wrak_zed
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+map_Kd wrak_zed.tga
+map_Bump wrak_zedn.tga
+illum 2
+
+newmtl beton_01
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+map_Kd beton_01.tga
+map_Bump beton_01n.tga
+illum 2
+
+newmtl otrepy
+Kd 1 1 1
+map_Kd otrepy.tga
+illum 2
+

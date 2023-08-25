@@ -1,0 +1,43 @@
+newmtl Small Engine
+Kd 1 1 1
+map_Kd Small Engine Diffuse.tga
+map_Bump Small Engine Normal.tga
+illum 2
+
+newmtl Material.001
+Kd 0 0 0
+illum 2
+
+newmtl Main Body
+Kd 1 1 1
+map_Kd Main Body Diffuse.tga
+map_Bump Main Body Normal.tga
+illum 2
+
+newmtl Material.004
+Kd 1 0.3455958 0
+Tr 0.9724771
+d 0.02752292
+illum 2
+
+newmtl Cable
+Kd 0 0 0
+map_Bump Cables Normal.tga
+illum 2
+
+newmtl Axel
+Kd 1 1 1
+map_Kd Axels Diffuse.tga
+map_Bump Axels Normal.tga
+illum 2
+
+newmtl Glass.001
+Kd 0.9063317 0.9063317 0.9063317
+illum 2
+
+newmtl Main engine
+Kd 1 1 1
+map_Kd Main Engine Diffuse.tga
+map_Bump Main Engine Normal.tga
+illum 2
+
